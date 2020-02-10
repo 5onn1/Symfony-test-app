@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="cactus-logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="429.70268"
+     inkscape:cy="681.11007"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g922"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g922">
+      <g
+         transform="matrix(16.546794,0,0,16.502022,-4180.936,-651.44798)"
+         inkscape:label="Capa 1"
+         id="layer1-6"
+         style="stroke-width:0.36309957;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.99588478">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.37234486;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill"
+           id="rect831"
+           width="0"
+           height="0"
+           x="0"
+           y="0"
+           transform="scale(0.26458333)" />
+        <g
+           id="g3026"
+           transform="translate(-0.57237267,6.4388723)"
+           style="stroke-width:0.36309957;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.99588478">
+          <g
+             id="g3046"
+             transform="translate(-10.690781,7.4835468)"
+             style="stroke-width:0.36309957;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.99588478">
+            <g
+               style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478"
+               transform="matrix(0.1203744,0,0,0.1203744,231.98123,17.765942)"
+               id="g897">
+              <g
+                 style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478"
+                 id="g904">
+                <rect
+                   y="80.106689"
+                   x="308.89206"
+                   height="108.77638"
+                   width="26.186264"
+                   id="rect1400-0"
+                   style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill" />
+                <rect
+                   y="93.854767"
+                   x="266.57834"
+                   height="42.79726"
+                   width="29.56514"
+                   id="rect1402-0"
+                   style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill" />
+                <rect
+                   y="136.65202"
+                   x="296.14346"
+                   height="9.5569525"
+                   width="12.247022"
+                   id="rect1404-8"
+                   style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill" />
+                <rect
+                   style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill"
+                   id="rect1412-0"
+                   width="17.739084"
+                   height="38.339214"
+                   x="353.35858"
+                   y="121.95661" />
+                <rect
+                   style="fill:#85fa00;fill-opacity:1;stroke:#000000;stroke-width:3.01641856;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill"
+                   id="rect1414-4"
+                   width="17.739084"
+                   height="8.9160957"
+                   x="335.61951"
+                   y="160.29584" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <circle
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.36309957;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99588478;paint-order:markers stroke fill"
+           id="path3010"
+           cx="125.61668"
+           cy="670.64282"
+           r="0" />
+      </g>
+    </g>
+  </g>
+</svg>
