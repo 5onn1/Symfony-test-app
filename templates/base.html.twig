@@ -45,8 +45,8 @@
                                     <li class="active"><a href="#header-principal">Inicio</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#services">Services</a></li>
+                                    <li><a href="#blog">Blog</a></li>
                                     <li><a href="#contact">Contact</a></li>
-                                    <li><a href="{{ path('blog_index') }}">Blog</a></li>
 
                                     {% if is_granted('ROLE_ADMIN') %}
                                         <li>
@@ -105,21 +105,6 @@
         <main>
             {% block body %}
                 <div class="row">
-                    <div id="main" class="col-sm-9">
-                        {{ include('default/_flash_messages.html.twig') }}
-
-                        {% block main %}{% endblock %}
-                    </div>
-
-                    <div id="sidebar" class="col-sm-3">
-                        {% block sidebar %}
-                            {{ render_esi(controller('Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController::templateAction', {
-                                'template': 'blog/about.html.twig',
-                                'sharedAge': 600,
-                                '_locale': app.request.locale
-                            })) }}
-                        {% endblock %}
-                    </div>
                 </div>
             {% endblock %}
         </main>
