@@ -19,6 +19,9 @@ $lato-font-path: '~lato-font/fonts';
 @include lato-include-font('normal');
 @include lato-include-font('bold');
 
+// custom navbar theme
+@import './custom-navbar.scss';
+
 /* Basic styles
    ------------------------------------------------------------------------- */
 p, ul, ol {
@@ -65,7 +68,8 @@ body {
 }
 
 header {
-  margin-bottom: 2em
+  //margin-bottom: 2em
+  height: auto;
 }
 
 header ul.nav li {
@@ -359,13 +363,63 @@ body#blog_search .post-metadata {
   margin-bottom: 8px;
 }
 
-// Added Styles
+// Added Styles ...........................................................................................................................................
+// colors:
+$black: #212121;
+$saddleb: #3E0F15;
+$salmon: #FB7A8C;
+$lightcoral: #EB5763;
+$awhite: #FAE6CE;
+
 body {
-  background-color: #262626;
+  background-color: $black;
   color: #ecf0f1;
+  position: relative;
+}
+.navbar {
+  margin-bottom: 0;
+}
+main {
+  section {
+    padding-top: 70px;
+  }
 }
 /* Page: 'Home'
    ------------------------------------------------------------------------- */
 .home {
-  background-color: #262626;
+  background-color: $black;
+}
+
+// Others:
+
+#header-principal {
+  height: 100vh;
+  background-image: url('../../public/images/2846003.jpg');
+  background-size: cover;
+}
+
+#about {
+  height: 100vh;
+  color: $awhite;
+}
+
+#services {
+  height: 100vh;
+  color: $salmon;
+}
+
+#contact {
+  height: 100vh;
+}
+
+footer {
+  margin-top: 0;
+  background-color: $awhite;
+  color: $black;
+}
+
+// Form Contact Section
+
+.formContact {
+  padding-top: 21px;
 }

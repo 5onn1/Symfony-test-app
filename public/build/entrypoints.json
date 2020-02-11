@@ -2,45 +2,45 @@
   "entrypoints": {
     "app": {
       "js": [
-        "http://localhost:8080/build/runtime.js",
-        "http://localhost:8080/build/vendors~admin~app~login~search.js",
-        "http://localhost:8080/build/vendors~admin~app~search.js",
-        "http://localhost:8080/build/vendors~app~search.js",
-        "http://localhost:8080/build/vendors~app.js",
-        "http://localhost:8080/build/app.js"
+        "/build/runtime.js",
+        "/build/vendors~admin~app~login~search.js",
+        "/build/vendors~admin~app~search.js",
+        "/build/vendors~app~search.js",
+        "/build/vendors~app.js",
+        "/build/app.js"
       ],
       "css": [
-        "http://localhost:8080/build/vendors~app.css",
-        "http://localhost:8080/build/app.css"
+        "/build/vendors~app.css",
+        "/build/app.css"
       ]
     },
     "login": {
       "js": [
-        "http://localhost:8080/build/runtime.js",
-        "http://localhost:8080/build/vendors~admin~app~login~search.js",
-        "http://localhost:8080/build/login.js"
+        "/build/runtime.js",
+        "/build/vendors~admin~app~login~search.js",
+        "/build/login.js"
       ]
     },
     "admin": {
       "js": [
-        "http://localhost:8080/build/runtime.js",
-        "http://localhost:8080/build/vendors~admin~app~login~search.js",
-        "http://localhost:8080/build/vendors~admin~app~search.js",
-        "http://localhost:8080/build/vendors~admin.js",
-        "http://localhost:8080/build/admin.js"
+        "/build/runtime.js",
+        "/build/vendors~admin~app~login~search.js",
+        "/build/vendors~admin~app~search.js",
+        "/build/vendors~admin.js",
+        "/build/admin.js"
       ],
       "css": [
-        "http://localhost:8080/build/admin.css"
+        "/build/admin.css"
       ]
     },
     "search": {
       "js": [
-        "http://localhost:8080/build/runtime.js",
-        "http://localhost:8080/build/vendors~admin~app~login~search.js",
-        "http://localhost:8080/build/vendors~admin~app~search.js",
-        "http://localhost:8080/build/vendors~app~search.js",
-        "http://localhost:8080/build/vendors~search.js",
-        "http://localhost:8080/build/search.js"
+        "/build/runtime.js",
+        "/build/vendors~admin~app~login~search.js",
+        "/build/vendors~admin~app~search.js",
+        "/build/vendors~app~search.js",
+        "/build/vendors~search.js",
+        "/build/search.js"
       ]
     }
   }

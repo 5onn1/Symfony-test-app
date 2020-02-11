@@ -1,0 +1,36 @@
+// colors:
+$black: #212121;
+$saddleb: #3E0F15;
+$salmon: #FB7A8C;
+$lightcoral: #EB5763;
+$awhite: #FAE6CE;
+
+// Navbar:
+
+/* Modify the backgorund color */ 
+.navbar-custom { 
+    background-color: $black; 
+    border-color: transparent;
+  
+    .navbar-text, .navbar-brand {
+      color: $salmon;
+    }
+    
+    .navbar-toggle .icon-bar {
+       background-color: $salmon;
+    }
+    
+    .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+        color: $salmon;
+        background-color: transparent;
+    }
+    
+    .navbar-nav > li > a {
+        color: $salmon;
+        background-color: transparent;
+    }
+
+    .navbar-collapse  > .nav > .active > a{
+        color: white;
+    }
+} 

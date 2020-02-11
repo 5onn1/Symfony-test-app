@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@babel/preset-react": "^7.8.3",
     "@fortawesome/fontawesome-free": "^5.8.1",
     "@symfony/webpack-encore": "^0.28.0",
     "bloodhound-js": "^1.2.3",
@@ -25,5 +26,10 @@
     "watch": "encore dev --watch",
     "build": "encore production --progress",
     "start:dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

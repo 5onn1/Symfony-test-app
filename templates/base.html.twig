@@ -14,19 +14,19 @@
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
 
-        {#<link rel="icon" type="image/x-icon" href="{{ asset('/images/public_images_cactus-logo.svg') }}" />
-        #}
+        <link rel="icon" type="image/x-icon" href="{{ asset('/images/public_images_cactus-logo.svg') }}" />
+        
     </head>
 
-    <body id="{% block body_id %}{% endblock %}">
+    <body id="{% block body_id %}{% endblock %}" data-spy="scroll" data-target="#myScrollspy" data-offset="50">
 
         {% block header %}
             <header>
-                <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div id="myScrollspy" class="navbar navbar-custom navbar-static-top navbar-fixed-top" role="navigation">
                     <div class="container">
                         <div class="navbar-header col-md-3 col-lg-2">
                             <a class="navbar-brand" href="{{ path('homepage') }}">
-                                Symfony Demo
+                                Company Name
                             </a>
 
                             <button type="button" class="navbar-toggle"
@@ -42,11 +42,11 @@
                             <ul class="nav navbar-nav navbar-right">
 
                                 {% block header_navigation_links %}
-                                    <li>
-                                        <a href="{{ path('blog_index') }}">
-                                            <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.homepage'|trans }}
-                                        </a>
-                                    </li>
+                                    <li class="active"><a href="#header-principal">Inicio</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="{{ path('blog_index') }}">Blog</a></li>
 
                                     {% if is_granted('ROLE_ADMIN') %}
                                         <li>
@@ -102,8 +102,7 @@
                 </div>
             </header>
         {% endblock %}
-
-        <div class="container body-container">
+        <main>
             {% block body %}
                 <div class="row">
                     <div id="main" class="col-sm-9">
@@ -123,7 +122,7 @@
                     </div>
                 </div>
             {% endblock %}
-        </div>
+        </main>
 
         {% block footer %}
             <footer>
@@ -153,6 +152,41 @@
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
+            <!-- jQuery library
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+             -->
+            <!-- Bootstrap JS 
+            -->
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script>
+                
+                $(document).ready(function(){
+                    /*
+                    $(".nav a").on("click", function(){
+                        $(".nav").find(".active").removeClass("active");
+                        $(this).parent().addClass("active");
+                    });
+                    */
+                    $(".nav li.dropdown a").on("click", function(){
+                        //$(".nav").find(".open").removeClass("open");
+                        //$(this).parent().addClass("open");
+                        $(this).parent().toggleClass("open");
+                        console.log('dropdown');
+                    });
+                });
+                
+
+                /*$(document).ready(function(){
+                    $(function () {
+                        $('[data-toggle="tooltip"]').tooltip()
+                        })
+
+                        // Initialize popover component
+                        $(function () {
+                        $('[data-toggle="popover"]').popover()
+                    })
+                });*/
+            </script>
         {% endblock %}
 
         {# it's not mandatory to set the timezone in localizeddate(). This is done to
